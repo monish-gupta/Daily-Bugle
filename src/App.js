@@ -2,7 +2,6 @@ import logo from "./header-logo.png";
 import "./App.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "@mui/material";
 
 function App() {
   const [articles, setArticles] = useState([]);
