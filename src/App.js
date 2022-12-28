@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "https://newsapi.org/v2/everything?q=technology&sources=bbc-news&apiKey=3a4057d1f5414f5ca8e2fc125065108a"
+        "Enter your News Api Key"
       )
       .then((res) => {
         setArticles(res.data.articles.slice(0, 40));
